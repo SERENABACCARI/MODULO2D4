@@ -40,13 +40,22 @@ const prices = [34, 5, 2]
 const shippingCost = 50
 let utenteCheEffettuaLAcquisto = paul //cambia il valore qui per provare se il tuo algoritmo funziona!
 
-if(isAmbassador=true)       //se Ambasciatore è vero
-let prezzoTotale = [34 + 5 + 2]     //prezzo totale è 41-20% +50
-console.log(prezzoTotale)      
-let sconto=20%
 
+let prezzoTotale = [41]  
+let costoSpedizione= 50                                               //prezzo totale è 41-30% +50
+if (utenteCheEffettuaLAcquisto.isAmbassador = true) {                     //se Ambasciatore è vero
+ prezzoTotale= (prezzoTotale *30)/100 + costoSpedizione
+}
+console.log(prezzoTotale)
 
+let prezzoTotale2=[100]
+if (utenteCheEffettuaLAcquisto.isAmbassador = false) {
+    prezzoTotale2=(prezzoTotale2)
+}
+console.log(prezzoTotale2)
 
+    
+  
 //array di utenti (usando .push)//
 
 
